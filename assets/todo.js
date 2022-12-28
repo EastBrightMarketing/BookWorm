@@ -27,9 +27,9 @@ data = data || {};
             dataAttribute: "data",
             deleteDiv: "delete-div"
         }, codes = {
-            "1" : "#pending",
-            "2" : "#inProgress",
-            "3" : "#completed"
+            "1" : "#to be read",
+            "2" : "#reading",
+            "3" : "#read"
         };
 
     todo.init = function (options) {
